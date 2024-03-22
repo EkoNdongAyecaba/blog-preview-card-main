@@ -1,0 +1,131 @@
+@import "../assets/fonts/Figtree-VariableFont_wght.ttf";
+@import "../assets/fonts/Figtree-Italic-VariableFont_wght.ttf";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-Grey: hsl(0, 0%, 50%);
+  --color-black: hsl(0, 0%, 7%);
+  --font-family: "Figtree", sans-serif;
+  --font-size: 16px;
+  --font-size-title: 23px;
+  --box-shadow: 8px 8px 0px var(--color-black);
+  --fw-md: 500;
+  --fw-lg: 800;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+@media (min-width: 430px) {
+  body {
+    width: 430px;
+  }
+}
+
+@media (min-width: 412px) {
+  body {
+    width: 412px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+}
+.card {
+  width: 327px;
+  height: 540px;
+  /* margin: auto; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--box-shadow);
+  padding: 16px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+}
+
+@media (min-width: 100vw) {
+  body {
+    width: 100vw;
+  }
+}
+.card__header {
+  display: block;
+}
+.card__image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card__subtitle {
+  width: 140px;
+  background-color: var(--color-primary);
+  margin-top: 25px;
+  font-weight: var(--fw-lg);
+  padding: 9px;
+  border-radius: 8px;
+}
+
+.container__title {
+  /* font-weight: var(--fw-lg); */
+  font-size: var(--font-size-title);
+  color: var(--color-primary);
+  margin: 3px 0px 15px;
+}
+.container__title:hover {
+  cursor: pointer;
+}
+
+.card__footer {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 25px 0;
+}
+
+.card__author-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.card__author-p {
+  font-weight: var(--fw-lg);
+}
+
+.attribution {
+  display: none;
+}
+
+.text-fw-lg {
+  font-weight: var(--fw-md);
+  color: var(--color-black);
+  margin: 12px 0;
+}
+
+.text-p {
+  font-weight: var(--fw-md);
+  color: var(--color-Grey);
+}
