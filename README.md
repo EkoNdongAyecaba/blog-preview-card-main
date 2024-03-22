@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/Valchali/blog-card-preview-main)
-- Live Site URL: [Website](https://ekondongayecaba.github.io/blog-card-preview-main)
+- Solution URL: [Repository](https://github.com/EkoNdongAyecaba/blog-preview-card-main)
+- Live Site URL: [Website](https://ekondongayecaba.github.io/blog-preview-card-main)
 
 ## My process
 
