@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository](https://github.com/Valchali/blog-card-preview-main)
-- Live Site URL: [Website](https://ekondongayecaba.github.io/qr-code-front-ent)
+- Live Site URL: [Website](https://ekondongayecaba.github.io/blog-card-preview-main)
 
 ## My process
 
@@ -79,6 +79,5 @@ And another thing that I learned was about shadows, how to mke them.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@EkoNdongAyecaba](https://www.frontendmentor.io/profile/EkoNdongAyecaba)
 - Twitter - [@EkoNdongAyecaba](https://twitter.com/Shiitake_EGBM)
