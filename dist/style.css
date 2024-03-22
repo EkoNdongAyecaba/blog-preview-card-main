@@ -78,6 +78,7 @@ body {
 }
 
 .card__subtitle {
+  color: var(--color-black);
   width: 140px;
   background-color: var(--color-primary);
   margin-top: 25px;
@@ -89,11 +90,12 @@ body {
 .container__title {
   /* font-weight: var(--fw-lg); */
   font-size: var(--font-size-title);
-  color: var(--color-primary);
+  color: var(--color-black);
   margin: 3px 0px 15px;
 }
 .container__title:hover {
   cursor: pointer;
+  color: var(--color-primary);
 }
 
 .card__footer {
