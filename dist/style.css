@@ -106,9 +106,10 @@ body {
   background-color: var(--color-white);
   border: 1px solid var(--color-black);
 }
-.card__header {
+/* .card__header {
   display: block;
-}
+  max-width: 100%;
+} */
 .card__image {
   max-width: 100%;
   border-radius: 12px;
@@ -122,8 +123,8 @@ body {
   font-weight: var(--fw-lg);
   padding: 9px;
   border-radius: 8px;
-  box-sizing: content-box;
-  width: 30%;
+  /* box-sizing: content-box;*/
+  width: 27%;
 }
 
 .container__title {
